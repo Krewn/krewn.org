@@ -1,0 +1,23 @@
+import sys as s
+import os as o
+
+folder = s.argv[1]
+type = s.argv[2]
+
+o.chdir(folder)
+
+files = [f for f in os.listdir('.') if (os.path.isfile(f) and f[-1*len(type):]=='_')]
+
+
+
+op='<html><head>Welcome to Krewn.org please enjoy the content.</head><body>'
+op+='<h2><a href="https://github.com/Krewn/krewn.org">So what what wrote what I am looking at?</a></h2>'
+ <img src=
+
+
+</a></body></html>
+
+
+#for k in files:
+	
+

@@ -1,0 +1,573 @@
+/**
+ * Theme Name: Workbox
+ * Theme URI: www.workbox.se
+ * Description: Workbox theme for Wildsweden
+ * Author: Workbox
+ * Author URI: www.workbox.se
+ * Version: 1.0
+ */
+
+/* @group base */
+body
+{
+    background-color:#ffffff;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#4e4e4e;
+    font-size:13px;
+    line-height:1.3;
+}
+/* @end */
+
+/* @group headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    color:#333333;
+}
+h2,
+h3
+{
+    font-size:23px;
+    font-weight:normal;
+    padding:5px 0;
+    line-height:28px;
+}
+h2 a
+{
+}
+h4
+{
+    font-size:110%;
+}
+a
+{
+    color:#000000;
+    text-decoration:none;
+}
+/* @end */
+
+/* @group structure */
+#wrapperstyle1
+{
+    width:960px;
+    margin:0 auto;
+}
+#container
+{
+
+}
+#header
+{
+    position: relative;
+    margin-top: 20px;
+    height: 210px;
+}
+#topHolder
+{
+    overflow: hidden;
+}
+#logoLeft,
+#topRightHolder
+{
+    clear:none;
+    float:left;
+}
+#logoLeft
+{
+    margin-left:20px;
+}
+#topRightHolder
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#languageRight,
+#menuRight
+{
+    float:right;
+}
+#menuRight {
+    background-color: #8eb08d;
+    width: 960px;
+    margin-top: 10px;
+}
+#languageRight
+{
+    margin-bottom:10px;
+}
+#imageHolder
+{
+    position:relative;
+}
+#slider
+{
+    width:960px;
+    height:250px;
+}
+#contactContent
+{
+    clear:none;
+    float:right;
+    text-align:right;
+}
+/* @end */
+
+/* @group menu */
+#menuRight .menu-huvudmeny-container {
+    
+}
+#menuRight .menu-huvudmeny-container ul {
+    margin: 0;
+}
+#menuRight .menu-huvudmeny-container li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+#menuRight .menu-huvudmeny-container ul ul li {
+    float: none;
+}
+#menuRight .menu-huvudmeny-container a {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 37px;
+    margin-left: 5px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+#menuRight .menu-huvudmeny-container a:hover {
+    color: #fff;
+}
+#menuRight .menu-huvudmeny-container li.current-menu-item > a,
+#menuRight .menu-huvudmeny-container li.current-menu-parent > a {
+    color: #fff;
+}
+#menuRight .menu-huvudmeny-container ul ul {
+    display: none;
+    position: absolute;
+    top: 37px;
+    left: 5px;
+    z-index: 25;
+}
+#menuRight .menu-huvudmeny-container ul ul ul {
+    top: 0;
+    left: 100%;
+}
+#menuRight .menu-huvudmeny-container li:hover > ul {
+    display: block;
+}
+#menuRight .menu-huvudmeny-container ul ul li a {
+    color: #fff;
+}
+#menuRight .menu-huvudmeny-container ul ul li a:hover {
+    
+    color: #ccc;
+}
+#menuRight .sub-menu li a {
+    background: transparent url('/wp-content/themes/workbox/images/sub-menu-tone.png') repeat-x;
+    color: #fff;
+    width: 100%;
+}
+#menuRight .sub-menu li.current-menu-item > a,
+#menuRight .sub-menu li.current-menu-parent > a {
+    background: transparent url('/wp-content/themes/workbox/images/sub-menu-tone.png') repeat-x;
+    color: #fff;
+}
+/* @end */
+
+/* @group main */
+#middle
+{
+}
+#main
+{
+    overflow:hidden;
+    margin:20px 0;
+}
+#pageLeft,
+#pageRight,
+#content
+{
+    clear:none;
+    float:left;
+    width:625px;
+}
+#pageRight,
+#pageRightFront
+{
+    float:right;
+    width:310px;
+}
+#pageRight > div,
+#pageRightFront > div
+{
+    margin-bottom: 15px;
+}
+#borderHolder
+{
+    padding-top:10px;
+}
+#borderLeft,
+#borderRight
+{
+    clear:none;
+    float:left;
+    width:635px;
+}
+#borderRight
+{
+    float:right;
+    width:310px;
+}
+/* @end */
+
+/* @group footer */
+#footerHolder
+{
+    overflow:hidden;
+}
+#footerHolder h3
+{
+    font-size:18px;
+    color:#eceded;
+    text-transform: none;
+    border-bottom: 1px solid #666;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+#footerOne,
+#footerTwo,
+#footerThree
+{
+    clear:none;
+    float: left;
+    width:290px;
+    color:#eceded;
+    padding:10px;
+    background-color:#333333;
+    margin-bottom:-990px;
+    padding-bottom:1000px;
+}
+#footerTwo
+{
+    text-align:center;
+    margin-left:15px;
+}
+#footerThree
+{
+    float:right;
+    text-align:right;
+}
+#footerOne a,
+#footerThree a
+{
+    color:#cccccc;
+}
+#copyrightHolder
+{
+    margin:10px 10px 30px 10px;
+    overflow:hidden;
+}
+#copyrightLeft,
+#copyrightRight
+{
+    clear:none;
+    float:left;
+}
+#copyrightRight
+{
+    float:right;
+}
+/* @end */
+
+/* @group nyheter */
+.post
+{
+    overflow: hidden;
+    width:635px;
+    margin-bottom:5px;
+    border-bottom:1px dotted #8eb08d;
+}
+.entryFooter
+{
+    width:635px;
+    font-size:11px;
+    margin-bottom: 60px;
+
+}
+.entryFooter .theDate
+{
+    clear:none;
+    float:right;
+}
+.entryFooter .addSocial
+{
+    float:right;
+    margin-top:5px;
+}
+.entryFooter .tagTitle
+{
+    clear:none;
+    float:left;
+    padding-right:3px;
+}
+.entryFooter .theTags
+{
+    clear:none;
+    float:left;
+    width:300px;
+}
+.blog #pageRight div,
+.archive #pageRight div,
+.single #pageRight div
+{
+    margin-bottom:20px;
+}
+.blog #pageRight ul,
+.archive #pageRight ul,
+.single #pageRight ul
+{
+    margin:0;
+}
+.blog #pageRight li,
+.archive #pageRight li,
+.single #pageRight li
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.blog #pageRight a,
+.archive #pageRight a,
+.single #pageRight a
+{
+    margin-left:5px;
+}
+/* @end */
+
+/* @group misc */
+a#wp-admin-anchor {
+    color: #ccc;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.entry,
+.textwidget
+{
+    padding:0 5px;
+}
+.entry
+{
+    overflow: hidden;
+}
+.title_attribute h2
+{
+    width:625px;
+    border-bottom:1px dotted #8eb08d;
+}
+#pageRight h3
+{
+    font-size:120%;
+    width:300px;
+    border-bottom:1px dotted #8eb08d;
+}
+span.small
+{
+    font-size:11px;
+    font-weight:normal;
+}
+#logoLeft .small
+{
+    margin-left:10px;
+}
+.alignright {
+    float:right;
+    margin-left:10px;
+}
+.alignleft {
+    float:left;
+    margin-right:10px;
+}
+/* @end */
+
+/* @group language */
+.qtrans_language_chooser ul
+{
+
+}
+.qtrans_language_chooser li
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.qtrans_language_chooser li
+{
+}
+.qtrans_language_chooser li
+{
+    float: left;
+    margin-left: 5px;
+}
+.qtrans_flag
+{
+    display: block;
+    width: 32px;
+    height: 25px;
+}
+/* @end */
+
+/* @group forms */
+.contactFormHolder
+{
+    overflow:hidden;
+}
+.contactInputHolder
+{
+    overflow:hidden;
+}
+.contactInputLeft,
+.contactInputRight
+{
+    clear:none;
+    float:left;
+    margin-right:20px;
+}
+.contactInputLeft input,
+.contactInputRight input
+{
+    border-color: #ccc;
+    height:20px;
+    line-height: 20px;
+    width:230px;
+}
+.contactTextarea textarea
+{
+    border-color: #ccc;
+    width:485px;
+}
+.contactSubmit .wpcf7-submit
+{
+    background-color:#333333;
+    color:#ffffff;
+    padding:5px 30px;
+}
+/* @end */
+
+.wp-socializer
+{
+    float: right;
+    margin-top: 20px;
+}
+
+/* @group footer-line */
+#footer-line
+{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+#footer-line a
+{
+    color: #f3f3f3;
+}
+.footer-line-block-num-one,
+.footer-line-block-num-two,
+.footer-line-block-num-three
+{
+    background-color: #333;
+    clear: none;
+    color: #f3f3f3;
+    float: left;
+    padding: 5px 10px;
+    margin-bottom:-990px;
+    padding-bottom:1000px;
+}
+.footer-line-block-num-one
+{
+    width: 940px;
+}
+.footer-line-block-num-two
+{
+    width: 450px;
+}
+.footer-line-block-num-three
+{
+    margin-right: 15px;
+    width: 290px;
+}
+.footer-line-block-last
+{
+    float: right;
+    margin-right: 0;
+}
+#footer-line h3
+{
+    font-size:18px;
+    color:#eceded;
+    text-transform: none;
+    border-bottom: 1px solid #666;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+/* @end */
+
+/* @group wbAdd */
+.wbAddIconLine
+{
+    text-align:right;
+    height:26px;
+    overflow:hidden;
+}
+.wbAddIconLine a
+{
+    margin:0 2px;
+    display:inline-block;
+    height:26px;
+}
+.wbAddIconLine a
+{
+    background-color:transparent;
+}
+.wbAddIconLine a img
+{
+    margin-top:12px;
+}
+.wbAddIconLine a:hover img
+{
+    margin-top:0;
+}
+/* @end */
+
+/* @group sidebar-news */
+.sidebar-startpage-holder .sidebardate
+{
+    font-size:10px;
+    margin:2px 0;
+    color:#666;
+}
+.sidebar-startpage-holder li
+{
+    list-style:none;
+}
+.sidebar-startpage-holder dd
+{
+    margin-left:0;
+}
+.sidebar-startpage-holder dt,
+.sidebar-startpage-holder dt a
+{
+    font-weight: bold;
+    color:#333;
+}
+.sidebar-startpage-holder h3
+{
+    padding-left:10px;
+}
+/* @end */

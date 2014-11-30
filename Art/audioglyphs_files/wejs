@@ -1,0 +1,1 @@
+document.write( '<script src="http://www.tripadvisor.co.uk/WidgetEmbed-logoWidget?uniq=294&color=green&locationId=2268643&langversion=1&lang=en_UK&size=med"></script>' );
